@@ -1,0 +1,97 @@
+div{
+    width: 50%;
+    height: 200px;
+    margin: auto;
+}
+#log{
+    margin-bottom: 20%;
+}
+#loginicon{
+    margin-top: 12%;
+}
+#login{
+    margin-bottom: 0.5%;
+}
+.page{
+    height: 50px;
+    margin-bottom: 4.2%;
+}
+#us{
+    font-size: 170%;
+    font-weight: bolder;
+    margin-left: 0%;
+    margin-right: 5%;
+}
+.nametag{
+    width: fit-content;
+    height: fit-content;
+    background-color: cornflowerblue;
+}
+#aboutus{
+    margin-bottom: 3%;
+    background-color: rgb(56, 88, 230);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+}
+.me{
+    margin-bottom: 1%;
+}
+.formbox{
+    display: flex;
+    margin-bottom: 3%;
+    background-color: rgb(56, 88, 230);
+}
+#creatorform{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#creatormail{
+    display: flex;
+    justify-content: space-between;
+}
+#info{
+    width: 50%;
+    padding: 1%;
+}
+.form{
+    width: 50%;
+}
+p{
+    margin-bottom: 0%;
+    text-align: center;
+}
+#explain{
+    margin-left: 5%;
+    width: 90%;
+    height: 50%;
+    margin-bottom: 2.5%;
+}
+#lang{
+    margin-top: 2%;
+    margin-left: 24%;
+}
+#submit{
+    margin-left: 40%;
+}
+.option{
+    margin-top: 7%;
+    margin-right: 3%;
+}
+.optionn{
+    margin-right: 3%;
+    margin-left: 1%;
+}
+#sayname{
+    margin-top: 7%;
+    margin-bottom: 1%;
+    margin-right: 1.2%;
+}
+#saymail{
+    margin-left: 1.2%;
+}

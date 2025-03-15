@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <item
+        android:id="@+id/navStories"
+        android:icon="@drawable/baseline_menu_book_24"
+        android:title="Chapters" />
+
+    <item
+        android:id="@+id/navNotes"
+        android:icon="@drawable/baseline_edit_note_24"
+        android:title="Notes" />
+    <item
+        android:id="@+id/navCharacters"
+        android:icon="@drawable/baseline_people_24"
+        android:title="Characters" />
+    <item
+        android:id="@+id/navTrash"
+        android:icon="@drawable/baseline_delete_24"
+        android:title="Trash" />
+    <item
+        android:id="@+id/navSettings"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Settings" />
+
+</menu>

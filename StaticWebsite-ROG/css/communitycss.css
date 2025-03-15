@@ -1,0 +1,93 @@
+#community{
+    font-size: 170%;
+    font-weight: bolder;
+}
+.page{
+    height: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 7%;
+    margin-right: 4.25%;
+    font-size: large;
+    padding-top: 1%;
+    border: none;
+}
+#mini{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+}
+.filter{
+    padding-top: 2%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blue;
+}
+.find{
+    border: 1px solid black;
+    background-color: cornflowerblue;
+}
+button{
+    background-color: cornflowerblue;
+}
+.options{
+    border: 1px solid black;
+    background-color: cornflowerblue;
+}
+#chosen{
+    font-size: large;
+    text-decoration: underline;
+}
+#container{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: none;
+}
+.roomsa{
+    border: none;
+    width: 47%;
+    height: 150px;
+    background-color: rgb(56, 88, 230);
+    background: linear-gradient(90deg, rgb(56, 88, 230)0%, rgb(4, 2, 70)90%, rgb(4, 2, 70)100%);
+}
+.roomsb{
+    border: none;
+    width: 47%;
+    height: 150px;
+    background-color: rgb(56, 88, 230);
+    background: linear-gradient(90deg, rgb(4, 2, 70)0%, rgb(4, 2, 70)10%, rgb(56, 88, 230)100%);
+}
+.nameleft{
+    border: none;
+    width: 50%;
+    display: flex;
+}
+.nameright{
+    border: none;
+    width: 50%;
+    display: flex;
+    justify-content: end;   
+}
+.chat{
+    border: solid 1px black;
+    margin: 0%;
+    margin-top: 2%;
+}
+.comments{
+    text-align: start;
+    margin-left: 1%;
+}
+.commentss{
+    text-align: end;
+    margin-right: 1%;
+}

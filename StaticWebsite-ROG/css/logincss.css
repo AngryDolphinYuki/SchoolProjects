@@ -1,0 +1,90 @@
+#login{
+    font-size: 170%;
+    font-weight: bolder;
+}
+#loginicon{
+    margin-top: 8%;
+    height: 60px;
+}
+#us{
+    margin-left: 0.5%;
+    margin-right: 5%;
+}
+div{
+    width: 50%;
+    height: 300px;
+    margin: auto;
+}
+.layout{
+    display: flex;
+    background-color: rgb(56, 88, 230);
+    height: 400px;
+}
+#continuewith{
+    display: flex;
+    background-color: rgb(56, 88, 230);
+}
+.sign{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#h1{
+    font-size: 25px;
+    width: 13%;
+    height: auto;
+    background-color: cornflowerblue;
+}
+p{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#logo{
+    margin-left: 8.8%;
+}
+#footer{
+    margin-top: 3%;
+}
+#icons{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logos{
+    height: 70px;
+    padding-left: 35%;
+}
+td{
+    width: 400px;
+    border: 2px solid black;
+}
+tr{
+    size: 500px;
+}
+#apps{
+    height: auto;
+    background-color: cornflowerblue;
+}
+label{
+    margin-right: 5%;
+}
+.inup{
+    width: 100%;
+    height: auto;
+    background-color: rgb(56, 88, 230);
+    margin: 0%;
+    border-bottom: none;
+}
+#deneme{
+    display: flex;
+    height: fit-content;
+    padding: 0%;
+    background-color: rgb(56, 88, 230);
+    border-bottom: none;
+}
+.aaa{
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B8FAEA"
+    android:padding="16dp"
+    tools:context=".Notes_NewNote">
+
+    <TextView
+        android:id="@+id/tvNewNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="New Note"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tvNewNote"
+        android:layout_marginEnd="6dp" />
+
+    <EditText
+        android:id="@+id/etNoteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter the title"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/tvNewNote"
+        android:layout_marginTop="16dp"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/etNoteContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Enter the description"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:layout_below="@id/etNoteTitle"
+        android:layout_marginTop="12dp" />
+
+</RelativeLayout>
